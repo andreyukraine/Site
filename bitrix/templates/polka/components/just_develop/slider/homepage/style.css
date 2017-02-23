@@ -1,0 +1,34 @@
+.slider {
+	width: 653px;
+}
+.item img {
+	width: 100%;
+}
+.owl-prev, .owl-next {
+	position: absolute;
+	top: 50%;
+	z-index: 200;
+	display: none;
+	margin-top: -29px;
+	width: 57px;
+	height: 58px;
+	background: url(images/slider_arroww.png) no-repeat;
+	cursor: pointer;
+}
+.owl-prev {
+	background-position: 0 0;
+	left: 0;
+}
+.owl-next {
+	background-position: 0 -58px;
+	right: 0;
+}
+.slider:hover .owl-next, .slider:hover .owl-prev {
+	display: block;
+}
+.owl-prev:active {
+	background-position: 0 -116px;
+}
+.owl-next:active {
+	background-position: 0 -174px;
+}

@@ -1,0 +1,16 @@
+<?php AddEventHandler("asd.isale", "OnBeforeCheckBasketItem", "IsaleOnBeforeCheckBasketItemHandler"); 
+function IsaleOnBeforeCheckBasketItemHandler(&$arElement) 
+{ 
+	$arDeniedSects = array(101, 233, 265, 261, 258, 257, 255, 253, 248, 244, 237, 239, 235, 18093, 18101, 
+		234, 236, 238, 240, 241, 242, 243, 245, 246, 247, 249, 250, 251, 252, 254, 256, 259, 260, 262, 
+		263, 264, 266, 267, ); 
+
+	if (!empty($arDeniedSects) && CModule::IncludeModule("iblock")) 
+	{ 
+		$rsSect = CIBlockElement::GetElementGroups($arElement["ID"]); 
+		while ($arSect = $rsSect->Fetch()) 
+			if (!in_array($arSect["ID"], $arDeniedSects)) 
+				return false; 
+	} 
+}
+?>

@@ -1,0 +1,9 @@
+# Created by .ignore support plugin (hsz.mobi)
+/upload/
+/bitrix/backup/
+/bitrix/*
+!/bitrix/php_interface
+!/bitrix/templates
+!/bitrix/components/zoougolok
+/bitrix/php_interface/dbconn.php
+sitemap*.xml

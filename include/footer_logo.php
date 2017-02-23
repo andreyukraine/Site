@@ -1,0 +1,1 @@
+<a href="/"><img src="/upload/pics/footer_logo.png" alt="Polka" width="100%" /></a>

@@ -1,0 +1,21 @@
+
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Синхронизация заказов</title>
+		<link href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css" rel="stylesheet">
+	</head>
+	<body class="container">
+		<div class="content">
+			<h1 class="text-center">Синхронизация заказов Smarket -> Битрикс</h1>
+			<ol>
+				<li>Экспорт заказов из Битрикс-a ... (1) Ok</li>
+				<li>Создание XML файлов ... <script>console.log({"1697":{"18574":{"Article":"18574","name":"\"\u041c\u0443\u0436\u0447\u0438\u043d\u044b: \u043a\u0440\u0438\u0437\u0438\u0441 \u0441\u0440\u0435\u0434\u043d\u0435\u0433\u043e \u0432\u043e\u0437\u0440\u0430\u0441\u0442\u0430 (e-book)\"","Cost":"26","Currency":"EUR","CurVal":"26.0000","kol":"1","Order":"1697","Date":"2017-02-11 14:36:05"}}})</script>Ok</li>
+			</ol>
+		</div>
+		
+	</body>
+</html>

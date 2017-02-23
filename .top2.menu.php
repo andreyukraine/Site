@@ -1,0 +1,46 @@
+<?
+$aMenuLinks = Array(
+	Array(
+		"Новинки", 
+		"auxpage_novinki/", 
+		Array(), 
+		Array("icon"=>"new"), 
+		"" 
+	),
+	Array(
+		"Акции", 
+		"auxpage_sales/", 
+		Array(), 
+		Array("icon"=>"sale"), 
+		"" 
+	),
+	Array(
+		"Букинист", 
+		"bookinist", 
+		Array(), 
+		Array("icon"=>"bookinist"), 
+		"" 
+	),
+	Array(
+		"Лучшая цена", 
+		"auxpage_bestprice/", 
+		Array(), 
+		Array("icon"=>"bprice"), 
+		"" 
+	),
+	Array(
+		"Блог", 
+		"news/", 
+		Array(), 
+		Array("icon"=>"blog"), 
+		"" 
+	),
+	Array(
+		"Авторы", 
+		"autors/", 
+		Array(), 
+		Array("icon"=>"author"), 
+		"" 
+	)
+);
+?>
